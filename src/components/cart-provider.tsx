@@ -12,7 +12,7 @@ import {
 import type {
   AddCartItemInput,
   CartItem,
-} from "@/lib/cart-types";
+} from "../lib/cart-types";
 
 const CART_STORAGE_KEY = "enam-wears-cart-preview";
 

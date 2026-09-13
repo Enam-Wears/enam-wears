@@ -7,14 +7,14 @@ import {
   Plus,
   Trash2,
 } from "lucide-react";
-import { useCart } from "@/components/cart-provider";
-import type { ResolvedCartLine } from "@/lib/cart";
-import { getProductImageForColor } from "@/lib/catalog";
+import { useCart } from "../components/cart-provider";
+import type { ResolvedCartLine } from "../lib/cart";
+import { getProductImageForColor } from "../lib/catalog";
 import {
   formatPrice,
   formatStockMessage,
   getStockClassName,
-} from "@/lib/format";
+} from "../lib/format";
 
 type CartLineProps = {
   line: ResolvedCartLine;

@@ -6,10 +6,10 @@ import {
   useEffect,
   useMemo,
 } from "react";
-import { CartLine } from "@/components/cart-line";
-import { CartSummary } from "@/components/cart-summary";
-import { useCart } from "@/components/cart-provider";
-import { resolveCartLines } from "@/lib/cart";
+import { CartLine } from "../components/cart-line";
+import { CartSummary } from "../components/cart-summary";
+import { useCart } from "../components/cart-provider";
+import { resolveCartLines } from "../lib/cart";
 
 export function CartDrawer() {
   const {
