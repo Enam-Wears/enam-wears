@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Environment files — NEVER commit secrets
+.env
+.env.*
+!.env.example
+
+# Deployment
+.vercel/
+
+# Build files
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sensitive service-account files
+google-service-account.json
+service-account-key.json
+service-account*.json
+*.pem
