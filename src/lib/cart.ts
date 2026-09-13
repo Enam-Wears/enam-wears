@@ -1,9 +1,9 @@
-import type { CartItem } from "@/lib/cart-types";
+import type { CartItem } from "../lib/cart-types";
 import {
   getProductBySlug,
   type Product,
   type ProductVariant,
-} from "@/lib/catalog";
+} from "../lib/catalog";
 
 export type ResolvedCartLine = {
   item: CartItem;

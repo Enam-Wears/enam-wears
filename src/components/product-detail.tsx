@@ -6,15 +6,15 @@ import {
   useEffect,
   useState,
 } from "react";
-import { ProductGrid } from "@/components/product-grid";
-import { ProductOptions } from "@/components/product-options";
+import { ProductGrid } from "../components/product-grid";
+import { ProductOptions } from "../components/product-options";
 import {
   formatCategory,
   formatDepartment,
   getProductPriceRange,
   type Product,
-} from "@/lib/catalog";
-import { formatPriceRange } from "@/lib/format";
+} from "../lib/catalog";
+import { formatPriceRange } from "../lib/format";
 
 type ProductDetailProps = {
   product: Product;

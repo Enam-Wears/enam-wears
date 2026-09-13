@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { ProductGrid } from "@/components/product-grid";
-import { getProductsForCollection } from "@/lib/catalog";
+import { ProductGrid } from "../components/product-grid";
+import { getProductsForCollection } from "../lib/catalog";
 
 export default function HomePage() {
   const newArrivals = getProductsForCollection("new-in").slice(0, 4);

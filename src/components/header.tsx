@@ -16,8 +16,8 @@ import {
   useRef,
   useState,
 } from "react";
-import { searchCatalog } from "@/lib/catalog";
-import { useCart } from "@/components/cart-provider";
+import { searchCatalog } from "../lib/catalog";
+import { useCart } from "../components/cart-provider";
 
 const navigation = [
   { label: "Men", href: "/shop/men" },

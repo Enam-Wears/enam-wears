@@ -6,16 +6,16 @@ import {
   useMemo,
   useState,
 } from "react";
-import { useCart } from "@/components/cart-provider";
+import { useCart } from "../components/cart-provider";
 import {
   getVariant,
   type Product,
-} from "@/lib/catalog";
+} from "../lib/catalog";
 import {
   formatPrice,
   formatStockMessage,
   getStockClassName,
-} from "@/lib/format";
+} from "../lib/format";
 
 type ProductOptionsProps = {
   product: Product;

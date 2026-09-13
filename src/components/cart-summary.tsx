@@ -1,8 +1,8 @@
 import {
   getCartSubtotal,
   type ResolvedCartLine,
-} from "@/lib/cart";
-import { formatPrice } from "@/lib/format";
+} from "../lib/cart";
+import { formatPrice } from "../lib/format";
 
 export function CartSummary({
   lines,

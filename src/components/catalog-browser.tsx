@@ -4,11 +4,11 @@ import {
   useMemo,
   useState,
 } from "react";
-import { ProductGrid } from "@/components/product-grid";
+import { ProductGrid } from "../components/product-grid";
 import {
   formatCategory,
   type Product,
-} from "@/lib/catalog";
+} from "../lib/catalog";
 
 type CatalogBrowserProps = {
   sourceProducts: Product[];

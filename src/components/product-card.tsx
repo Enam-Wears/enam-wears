@@ -7,13 +7,13 @@ import {
   useEffect,
   useState,
 } from "react";
-import { ProductOptions } from "@/components/product-options";
+import { ProductOptions } from "../components/product-options";
 import {
   formatDepartment,
   getProductPriceRange,
   type Product,
-} from "@/lib/catalog";
-import { formatPriceRange } from "@/lib/format";
+} from "../lib/catalog";
+import { formatPriceRange } from "../lib/format";
 
 type ProductCardProps = {
   product: Product;

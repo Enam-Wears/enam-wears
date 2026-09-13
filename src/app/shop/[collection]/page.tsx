@@ -1,10 +1,10 @@
 import { notFound } from "next/navigation";
-import { CatalogBrowser } from "@/components/catalog-browser";
+import { CatalogBrowser } from "./../../../components/catalog-browser";
 import {
   getCollectionMeta,
   getProductsForCollection,
   shopCollectionSlugs
-} from "@/lib/catalog";
+} from "./../../../lib/catalog";
 
 export function generateStaticParams() {
   return shopCollectionSlugs.map((collection) => ({ collection }));
